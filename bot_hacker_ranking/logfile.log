@@ -1,0 +1,375 @@
+2025-01-24 17:07:19,322 - root - INFO - Starting bot...
+2025-01-24 17:07:19,322 - utils.env_checker - DEBUG - DEVELOPMENT MODE ENABLED
+2025-01-24 17:07:19,322 - utils.env_checker - DEBUG - Discord token retrieved: MTMxNDIxNT...
+2025-01-24 17:07:19,322 - utils.env_checker - DEBUG - Discord guild id retrieved: 1314208126836412436
+2025-01-24 17:07:19,322 - utils.env_checker - DEBUG - Discord channel ids retrieved: [1314208748499369984]
+2025-01-24 17:07:19,322 - utils.env_checker - DEBUG - Organization name retrieved: 4TL45
+2025-01-24 17:07:19,322 - utils.env_checker - DEBUG - Database path retrieved: ./database/bot_database.db
+2025-01-24 17:07:19,322 - utils.env_checker - DEBUG - Update interval retrieved: 5 minutes
+2025-01-24 17:07:19,322 - utils.env_checker - DEBUG - RM API key retrieved: 947937_299...
+2025-01-24 17:07:19,328 - database.manager - INFO - Database initialized successfully.
+2025-01-24 17:07:19,329 - database.manager - DEBUG - Database already exists. No tables were created.
+2025-01-24 17:07:22,286 - utils.ressources - INFO - Emoji setup done.
+2025-01-24 17:07:22,287 - bot.core - INFO - 4TL45#8199 is ready and online!
+2025-01-24 17:07:22,288 - database.crud_user - INFO - Today: 2025-01-24
+2025-01-24 17:07:22,297 - database.crud_user - INFO - [<User(username=TopiMax, discord_id=175674843537080320, birthday=None, htb_id=None, rm_id=611740, thm_id=None)>, <User(username=hyzed, discord_id=305055506035376138, birthday=2002-06-08, htb_id=None, rm_id=661339, thm_id=None)>, <User(username=Icedgob, discord_id=414454063376105472, birthday=2001-01-03, htb_id=None, rm_id=692473, thm_id=None)>, <User(username=hello, discord_id=427856199850000385, birthday=2004-01-24, htb_id=None, rm_id=611740, thm_id=TopiMax)>, <User(username=Tad, discord_id=533760447451496449, birthday=None, htb_id=None, rm_id=None, thm_id=None)>]
+2025-01-24 17:07:22,301 - database.crud_user - INFO - Users with birthday today retrieved from the database: 1
+2025-01-24 17:07:22,301 - bot.core - INFO - Checking birthdays... 1 users have a birthday today.
+2025-01-24 17:07:22,304 - database.crud_user - DEBUG - Active users retrieved from the database: 5
+2025-01-24 17:07:22,305 - database.crud_user - DEBUG - Deactivated users retrieved from the database: 0
+2025-01-24 17:07:22,624 - bot.core - DEBUG - Updating users score...
+2025-01-24 17:07:22,627 - bot.core - INFO - Sent birthday message for 4TL45
+2025-01-24 17:07:38,358 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 17:07:38,362 - database.crud_user - INFO - User TopiMax updated successfully in the database.
+2025-01-24 17:07:38,367 - database.crud_data - INFO - Daily data for 175674843537080320 inserted successfully in the database.
+2025-01-24 17:07:53,913 - utils.api - DEBUG - RM data retrieved for 661339: 26408, 585
+2025-01-24 17:07:53,920 - database.crud_user - INFO - User hyzed updated successfully in the database.
+2025-01-24 17:07:53,923 - database.crud_data - INFO - Daily data for 305055506035376138 inserted successfully in the database.
+2025-01-24 17:08:09,406 - utils.api - DEBUG - RM data retrieved for 692473: 54958, 275
+2025-01-24 17:08:09,412 - database.crud_user - INFO - User Icedgob updated successfully in the database.
+2025-01-24 17:08:09,414 - database.crud_data - INFO - Daily data for 414454063376105472 inserted successfully in the database.
+2025-01-24 17:08:24,956 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 17:08:24,963 - database.crud_user - INFO - User hello updated successfully in the database.
+2025-01-24 17:08:26,108 - utils.api - DEBUG - THM data retrieved for TopiMax: 351664, 17
+2025-01-24 17:08:26,110 - database.crud_data - INFO - Daily data for 427856199850000385 inserted successfully in the database.
+2025-01-24 17:08:26,515 - bot.core - DEBUG - Users score updated!
+2025-01-24 17:12:22,292 - database.crud_user - DEBUG - Active users retrieved from the database: 5
+2025-01-24 17:12:22,293 - database.crud_user - DEBUG - Deactivated users retrieved from the database: 0
+2025-01-24 17:12:22,650 - bot.core - DEBUG - Updating users score...
+2025-01-24 17:12:38,349 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 17:12:38,356 - database.crud_user - INFO - User TopiMax updated successfully in the database.
+2025-01-24 17:12:38,358 - database.crud_data - INFO - Daily data for 175674843537080320 inserted successfully in the database.
+2025-01-24 17:12:54,009 - utils.api - DEBUG - RM data retrieved for 661339: 26408, 585
+2025-01-24 17:12:54,015 - database.crud_user - INFO - User hyzed updated successfully in the database.
+2025-01-24 17:12:54,017 - database.crud_data - INFO - Daily data for 305055506035376138 inserted successfully in the database.
+2025-01-24 17:13:09,710 - utils.api - DEBUG - RM data retrieved for 692473: 54958, 275
+2025-01-24 17:13:09,716 - database.crud_user - INFO - User Icedgob updated successfully in the database.
+2025-01-24 17:13:09,719 - database.crud_data - INFO - Daily data for 414454063376105472 inserted successfully in the database.
+2025-01-24 17:13:25,210 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 17:13:25,215 - database.crud_user - INFO - User hello updated successfully in the database.
+2025-01-24 17:13:31,063 - utils.api - DEBUG - THM data retrieved for TopiMax: 351666, 17
+2025-01-24 17:13:31,080 - database.crud_data - INFO - Daily data for 427856199850000385 inserted successfully in the database.
+2025-01-24 17:13:31,417 - bot.core - DEBUG - Users score updated!
+2025-01-24 17:17:22,317 - database.crud_user - DEBUG - Active users retrieved from the database: 5
+2025-01-24 17:17:22,318 - database.crud_user - DEBUG - Deactivated users retrieved from the database: 0
+2025-01-24 17:17:22,685 - bot.core - DEBUG - Updating users score...
+2025-01-24 17:17:38,802 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 17:17:38,807 - database.crud_user - INFO - User TopiMax updated successfully in the database.
+2025-01-24 17:17:38,810 - database.crud_data - INFO - Daily data for 175674843537080320 inserted successfully in the database.
+2025-01-24 17:17:54,428 - utils.api - DEBUG - RM data retrieved for 661339: 26408, 585
+2025-01-24 17:17:54,434 - database.crud_user - INFO - User hyzed updated successfully in the database.
+2025-01-24 17:17:54,437 - database.crud_data - INFO - Daily data for 305055506035376138 inserted successfully in the database.
+2025-01-24 17:18:09,960 - utils.api - DEBUG - RM data retrieved for 692473: 54958, 275
+2025-01-24 17:18:09,967 - database.crud_user - INFO - User Icedgob updated successfully in the database.
+2025-01-24 17:18:09,970 - database.crud_data - INFO - Daily data for 414454063376105472 inserted successfully in the database.
+2025-01-24 17:18:25,652 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 17:18:25,658 - database.crud_user - INFO - User hello updated successfully in the database.
+2025-01-24 17:18:26,789 - utils.api - DEBUG - THM data retrieved for TopiMax: 351668, 17
+2025-01-24 17:18:26,819 - database.crud_data - INFO - Daily data for 427856199850000385 inserted successfully in the database.
+2025-01-24 17:18:27,300 - bot.core - DEBUG - Users score updated!
+2025-01-24 17:22:22,335 - database.crud_user - DEBUG - Active users retrieved from the database: 5
+2025-01-24 17:22:22,337 - database.crud_user - DEBUG - Deactivated users retrieved from the database: 0
+2025-01-24 17:22:22,718 - bot.core - DEBUG - Updating users score...
+2025-01-24 17:22:38,728 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 17:22:38,733 - database.crud_user - INFO - User TopiMax updated successfully in the database.
+2025-01-24 17:22:38,736 - database.crud_data - INFO - Daily data for 175674843537080320 inserted successfully in the database.
+2025-01-24 17:22:54,547 - utils.api - DEBUG - RM data retrieved for 661339: 26408, 585
+2025-01-24 17:22:54,553 - database.crud_user - INFO - User hyzed updated successfully in the database.
+2025-01-24 17:22:54,556 - database.crud_data - INFO - Daily data for 305055506035376138 inserted successfully in the database.
+2025-01-24 17:23:10,377 - utils.api - DEBUG - RM data retrieved for 692473: 54958, 275
+2025-01-24 17:23:10,382 - database.crud_user - INFO - User Icedgob updated successfully in the database.
+2025-01-24 17:23:10,384 - database.crud_data - INFO - Daily data for 414454063376105472 inserted successfully in the database.
+2025-01-24 17:23:25,893 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 17:23:25,898 - database.crud_user - INFO - User hello updated successfully in the database.
+2025-01-24 17:23:26,908 - utils.api - DEBUG - THM data retrieved for TopiMax: 351669, 17
+2025-01-24 17:23:26,923 - database.crud_data - INFO - Daily data for 427856199850000385 inserted successfully in the database.
+2025-01-24 17:23:27,334 - bot.core - DEBUG - Users score updated!
+2025-01-24 17:27:22,341 - database.crud_user - DEBUG - Active users retrieved from the database: 5
+2025-01-24 17:27:22,343 - database.crud_user - DEBUG - Deactivated users retrieved from the database: 0
+2025-01-24 17:27:22,975 - bot.core - DEBUG - Updating users score...
+2025-01-24 17:27:38,708 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 17:27:38,712 - database.crud_user - INFO - User TopiMax updated successfully in the database.
+2025-01-24 17:27:38,714 - database.crud_data - INFO - Daily data for 175674843537080320 inserted successfully in the database.
+2025-01-24 17:27:54,634 - utils.api - DEBUG - RM data retrieved for 661339: 26408, 585
+2025-01-24 17:27:54,640 - database.crud_user - INFO - User hyzed updated successfully in the database.
+2025-01-24 17:27:54,642 - database.crud_data - INFO - Daily data for 305055506035376138 inserted successfully in the database.
+2025-01-24 17:28:10,421 - utils.api - DEBUG - RM data retrieved for 692473: 54958, 275
+2025-01-24 17:28:10,427 - database.crud_user - INFO - User Icedgob updated successfully in the database.
+2025-01-24 17:28:10,430 - database.crud_data - INFO - Daily data for 414454063376105472 inserted successfully in the database.
+2025-01-24 17:28:26,324 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 17:28:26,331 - database.crud_user - INFO - User hello updated successfully in the database.
+2025-01-24 17:28:27,256 - utils.api - DEBUG - THM data retrieved for TopiMax: 351671, 17
+2025-01-24 17:28:27,270 - database.crud_data - INFO - Daily data for 427856199850000385 inserted successfully in the database.
+2025-01-24 17:28:27,675 - bot.core - DEBUG - Users score updated!
+2025-01-24 17:32:22,359 - database.crud_user - DEBUG - Active users retrieved from the database: 5
+2025-01-24 17:32:22,361 - database.crud_user - DEBUG - Deactivated users retrieved from the database: 0
+2025-01-24 17:32:22,880 - bot.core - DEBUG - Updating users score...
+2025-01-24 17:32:38,546 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 17:32:38,547 - database.crud_user - INFO - User TopiMax updated successfully in the database.
+2025-01-24 17:32:38,548 - database.crud_data - INFO - Daily data for 175674843537080320 inserted successfully in the database.
+2025-01-24 17:32:54,683 - utils.api - DEBUG - RM data retrieved for 661339: 26408, 585
+2025-01-24 17:32:54,689 - database.crud_user - INFO - User hyzed updated successfully in the database.
+2025-01-24 17:32:54,692 - database.crud_data - INFO - Daily data for 305055506035376138 inserted successfully in the database.
+2025-01-24 17:33:10,219 - utils.api - DEBUG - RM data retrieved for 692473: 54958, 275
+2025-01-24 17:33:10,224 - database.crud_user - INFO - User Icedgob updated successfully in the database.
+2025-01-24 17:33:10,226 - database.crud_data - INFO - Daily data for 414454063376105472 inserted successfully in the database.
+2025-01-24 17:33:25,949 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 17:33:25,957 - database.crud_user - INFO - User hello updated successfully in the database.
+2025-01-24 17:33:26,890 - utils.api - DEBUG - THM data retrieved for TopiMax: 351674, 17
+2025-01-24 17:33:26,905 - database.crud_data - INFO - Daily data for 427856199850000385 inserted successfully in the database.
+2025-01-24 17:33:27,299 - bot.core - DEBUG - Users score updated!
+2025-01-24 17:37:22,388 - database.crud_user - DEBUG - Active users retrieved from the database: 5
+2025-01-24 17:37:22,389 - database.crud_user - DEBUG - Deactivated users retrieved from the database: 0
+2025-01-24 17:37:22,814 - bot.core - DEBUG - Updating users score...
+2025-01-24 17:37:38,717 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 17:37:38,723 - database.crud_user - INFO - User TopiMax updated successfully in the database.
+2025-01-24 17:37:38,726 - database.crud_data - INFO - Daily data for 175674843537080320 inserted successfully in the database.
+2025-01-24 17:37:54,595 - utils.api - DEBUG - RM data retrieved for 661339: 26408, 585
+2025-01-24 17:37:54,600 - database.crud_user - INFO - User hyzed updated successfully in the database.
+2025-01-24 17:37:54,602 - database.crud_data - INFO - Daily data for 305055506035376138 inserted successfully in the database.
+2025-01-24 17:38:10,358 - utils.api - DEBUG - RM data retrieved for 692473: 54958, 275
+2025-01-24 17:38:10,365 - database.crud_user - INFO - User Icedgob updated successfully in the database.
+2025-01-24 17:38:10,367 - database.crud_data - INFO - Daily data for 414454063376105472 inserted successfully in the database.
+2025-01-24 17:38:25,920 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 17:38:25,927 - database.crud_user - INFO - User hello updated successfully in the database.
+2025-01-24 17:38:26,798 - utils.api - DEBUG - THM data retrieved for TopiMax: 351674, 17
+2025-01-24 17:38:26,804 - database.crud_data - INFO - Daily data for 427856199850000385 inserted successfully in the database.
+2025-01-24 17:38:27,225 - bot.core - DEBUG - Users score updated!
+2025-01-24 17:42:22,426 - database.crud_user - DEBUG - Active users retrieved from the database: 5
+2025-01-24 17:42:22,427 - database.crud_user - DEBUG - Deactivated users retrieved from the database: 0
+2025-01-24 17:42:22,846 - bot.core - DEBUG - Updating users score...
+2025-01-24 17:42:38,754 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 17:42:38,760 - database.crud_user - INFO - User TopiMax updated successfully in the database.
+2025-01-24 17:42:38,763 - database.crud_data - INFO - Daily data for 175674843537080320 inserted successfully in the database.
+2025-01-24 17:42:54,525 - utils.api - DEBUG - RM data retrieved for 661339: 26408, 585
+2025-01-24 17:42:54,527 - database.crud_user - INFO - User hyzed updated successfully in the database.
+2025-01-24 17:42:54,528 - database.crud_data - INFO - Daily data for 305055506035376138 inserted successfully in the database.
+2025-01-24 17:43:10,023 - utils.api - DEBUG - RM data retrieved for 692473: 54958, 275
+2025-01-24 17:43:10,029 - database.crud_user - INFO - User Icedgob updated successfully in the database.
+2025-01-24 17:43:10,031 - database.crud_data - INFO - Daily data for 414454063376105472 inserted successfully in the database.
+2025-01-24 17:43:25,543 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 17:43:25,546 - database.crud_user - INFO - User hello updated successfully in the database.
+2025-01-24 17:43:26,417 - utils.api - DEBUG - THM data retrieved for TopiMax: 351677, 17
+2025-01-24 17:43:26,446 - database.crud_data - INFO - Daily data for 427856199850000385 inserted successfully in the database.
+2025-01-24 17:43:26,847 - bot.core - DEBUG - Users score updated!
+2025-01-24 17:47:22,436 - database.crud_user - DEBUG - Active users retrieved from the database: 5
+2025-01-24 17:47:22,437 - database.crud_user - DEBUG - Deactivated users retrieved from the database: 0
+2025-01-24 17:47:22,906 - bot.core - DEBUG - Updating users score...
+2025-01-24 17:47:38,916 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 17:47:38,919 - database.crud_user - INFO - User TopiMax updated successfully in the database.
+2025-01-24 17:47:38,920 - database.crud_data - INFO - Daily data for 175674843537080320 inserted successfully in the database.
+2025-01-24 17:47:54,543 - utils.api - DEBUG - RM data retrieved for 661339: 26408, 585
+2025-01-24 17:47:54,549 - database.crud_user - INFO - User hyzed updated successfully in the database.
+2025-01-24 17:47:54,551 - database.crud_data - INFO - Daily data for 305055506035376138 inserted successfully in the database.
+2025-01-24 17:48:10,042 - utils.api - DEBUG - RM data retrieved for 692473: 54958, 275
+2025-01-24 17:48:10,044 - database.crud_user - INFO - User Icedgob updated successfully in the database.
+2025-01-24 17:48:10,045 - database.crud_data - INFO - Daily data for 414454063376105472 inserted successfully in the database.
+2025-01-24 17:48:25,556 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 17:48:25,560 - database.crud_user - INFO - User hello updated successfully in the database.
+2025-01-24 17:48:26,442 - utils.api - DEBUG - THM data retrieved for TopiMax: 351679, 17
+2025-01-24 17:48:26,451 - database.crud_data - INFO - Daily data for 427856199850000385 inserted successfully in the database.
+2025-01-24 17:48:26,776 - bot.core - DEBUG - Users score updated!
+2025-01-24 17:52:22,439 - database.crud_user - DEBUG - Active users retrieved from the database: 5
+2025-01-24 17:52:22,440 - database.crud_user - DEBUG - Deactivated users retrieved from the database: 0
+2025-01-24 17:52:22,705 - bot.core - DEBUG - Updating users score...
+2025-01-24 17:52:38,514 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 17:52:38,517 - database.crud_user - INFO - User TopiMax updated successfully in the database.
+2025-01-24 17:52:38,518 - database.crud_data - INFO - Daily data for 175674843537080320 inserted successfully in the database.
+2025-01-24 17:52:54,095 - utils.api - DEBUG - RM data retrieved for 661339: 26408, 585
+2025-01-24 17:52:54,098 - database.crud_user - INFO - User hyzed updated successfully in the database.
+2025-01-24 17:52:54,099 - database.crud_data - INFO - Daily data for 305055506035376138 inserted successfully in the database.
+2025-01-24 17:53:09,552 - utils.api - DEBUG - RM data retrieved for 692473: 54958, 275
+2025-01-24 17:53:09,558 - database.crud_user - INFO - User Icedgob updated successfully in the database.
+2025-01-24 17:53:09,560 - database.crud_data - INFO - Daily data for 414454063376105472 inserted successfully in the database.
+2025-01-24 17:53:25,551 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 17:53:25,556 - database.crud_user - INFO - User hello updated successfully in the database.
+2025-01-24 17:53:28,764 - utils.api - DEBUG - THM data retrieved for TopiMax: 351682, 17
+2025-01-24 17:53:28,773 - database.crud_data - INFO - Daily data for 427856199850000385 inserted successfully in the database.
+2025-01-24 17:53:29,194 - bot.core - DEBUG - Users score updated!
+2025-01-24 17:57:22,440 - database.crud_user - DEBUG - Active users retrieved from the database: 5
+2025-01-24 17:57:22,440 - database.crud_user - DEBUG - Deactivated users retrieved from the database: 0
+2025-01-24 17:57:22,965 - bot.core - DEBUG - Updating users score...
+2025-01-24 17:57:38,630 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 17:57:38,636 - database.crud_user - INFO - User TopiMax updated successfully in the database.
+2025-01-24 17:57:38,639 - database.crud_data - INFO - Daily data for 175674843537080320 inserted successfully in the database.
+2025-01-24 17:57:54,538 - utils.api - DEBUG - RM data retrieved for 661339: 26408, 585
+2025-01-24 17:57:54,544 - database.crud_user - INFO - User hyzed updated successfully in the database.
+2025-01-24 17:57:54,546 - database.crud_data - INFO - Daily data for 305055506035376138 inserted successfully in the database.
+2025-01-24 17:58:10,112 - utils.api - DEBUG - RM data retrieved for 692473: 54958, 275
+2025-01-24 17:58:10,118 - database.crud_user - INFO - User Icedgob updated successfully in the database.
+2025-01-24 17:58:10,122 - database.crud_data - INFO - Daily data for 414454063376105472 inserted successfully in the database.
+2025-01-24 17:58:25,664 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 17:58:25,670 - database.crud_user - INFO - User hello updated successfully in the database.
+2025-01-24 17:58:26,759 - utils.api - DEBUG - THM data retrieved for TopiMax: 351683, 17
+2025-01-24 17:58:26,774 - database.crud_data - INFO - Daily data for 427856199850000385 inserted successfully in the database.
+2025-01-24 17:58:27,147 - bot.core - DEBUG - Users score updated!
+2025-01-24 18:02:22,464 - database.crud_user - DEBUG - Active users retrieved from the database: 5
+2025-01-24 18:02:22,465 - database.crud_user - DEBUG - Deactivated users retrieved from the database: 0
+2025-01-24 18:02:22,757 - bot.core - DEBUG - Updating users score...
+2025-01-24 18:02:38,593 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 18:02:38,599 - database.crud_user - INFO - User TopiMax updated successfully in the database.
+2025-01-24 18:02:38,602 - database.crud_data - INFO - Daily data for 175674843537080320 inserted successfully in the database.
+2025-01-24 18:02:54,399 - utils.api - DEBUG - RM data retrieved for 661339: 26408, 585
+2025-01-24 18:02:54,402 - database.crud_user - INFO - User hyzed updated successfully in the database.
+2025-01-24 18:02:54,404 - database.crud_data - INFO - Daily data for 305055506035376138 inserted successfully in the database.
+2025-01-24 18:03:09,935 - utils.api - DEBUG - RM data retrieved for 692473: 54958, 275
+2025-01-24 18:03:09,942 - database.crud_user - INFO - User Icedgob updated successfully in the database.
+2025-01-24 18:03:09,945 - database.crud_data - INFO - Daily data for 414454063376105472 inserted successfully in the database.
+2025-01-24 18:03:25,563 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 18:03:25,569 - database.crud_user - INFO - User hello updated successfully in the database.
+2025-01-24 18:03:26,507 - utils.api - DEBUG - THM data retrieved for TopiMax: 351685, 17
+2025-01-24 18:03:26,523 - database.crud_data - INFO - Daily data for 427856199850000385 inserted successfully in the database.
+2025-01-24 18:03:27,088 - bot.core - DEBUG - Users score updated!
+2025-01-24 18:07:22,501 - database.crud_user - DEBUG - Active users retrieved from the database: 5
+2025-01-24 18:07:22,502 - database.crud_user - DEBUG - Deactivated users retrieved from the database: 0
+2025-01-24 18:07:22,905 - bot.core - DEBUG - Updating users score...
+2025-01-24 18:07:41,271 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 18:07:41,279 - database.crud_user - INFO - User TopiMax updated successfully in the database.
+2025-01-24 18:07:41,281 - database.crud_data - INFO - Daily data for 175674843537080320 inserted successfully in the database.
+2025-01-24 18:07:56,918 - utils.api - DEBUG - RM data retrieved for 661339: 26408, 585
+2025-01-24 18:07:56,924 - database.crud_user - INFO - User hyzed updated successfully in the database.
+2025-01-24 18:07:56,926 - database.crud_data - INFO - Daily data for 305055506035376138 inserted successfully in the database.
+2025-01-24 18:08:12,613 - utils.api - DEBUG - RM data retrieved for 692473: 54958, 275
+2025-01-24 18:08:12,617 - database.crud_user - INFO - User Icedgob updated successfully in the database.
+2025-01-24 18:08:12,618 - database.crud_data - INFO - Daily data for 414454063376105472 inserted successfully in the database.
+2025-01-24 18:08:28,387 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 18:08:28,393 - database.crud_user - INFO - User hello updated successfully in the database.
+2025-01-24 18:08:29,566 - utils.api - DEBUG - THM data retrieved for TopiMax: 351686, 17
+2025-01-24 18:08:29,581 - database.crud_data - INFO - Daily data for 427856199850000385 inserted successfully in the database.
+2025-01-24 18:08:29,977 - bot.core - DEBUG - Users score updated!
+2025-01-24 18:12:22,505 - database.crud_user - DEBUG - Active users retrieved from the database: 5
+2025-01-24 18:12:22,506 - database.crud_user - DEBUG - Deactivated users retrieved from the database: 0
+2025-01-24 18:12:23,551 - bot.core - DEBUG - Updating users score...
+2025-01-24 18:12:39,461 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 18:12:39,467 - database.crud_user - INFO - User TopiMax updated successfully in the database.
+2025-01-24 18:12:39,470 - database.crud_data - INFO - Daily data for 175674843537080320 inserted successfully in the database.
+2025-01-24 18:12:55,345 - utils.api - DEBUG - RM data retrieved for 661339: 26408, 585
+2025-01-24 18:12:55,350 - database.crud_user - INFO - User hyzed updated successfully in the database.
+2025-01-24 18:12:55,353 - database.crud_data - INFO - Daily data for 305055506035376138 inserted successfully in the database.
+2025-01-24 18:13:11,113 - utils.api - DEBUG - RM data retrieved for 692473: 54958, 275
+2025-01-24 18:13:11,120 - database.crud_user - INFO - User Icedgob updated successfully in the database.
+2025-01-24 18:13:11,124 - database.crud_data - INFO - Daily data for 414454063376105472 inserted successfully in the database.
+2025-01-24 18:13:26,873 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 18:13:26,877 - database.crud_user - INFO - User hello updated successfully in the database.
+2025-01-24 18:13:27,754 - utils.api - DEBUG - THM data retrieved for TopiMax: 351687, 17
+2025-01-24 18:13:27,762 - database.crud_data - INFO - Daily data for 427856199850000385 inserted successfully in the database.
+2025-01-24 18:13:28,211 - bot.core - DEBUG - Users score updated!
+2025-01-24 18:17:22,522 - database.crud_user - DEBUG - Active users retrieved from the database: 5
+2025-01-24 18:17:22,523 - database.crud_user - DEBUG - Deactivated users retrieved from the database: 0
+2025-01-24 18:17:22,979 - bot.core - DEBUG - Updating users score...
+2025-01-24 18:17:38,725 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 18:17:38,731 - database.crud_user - INFO - User TopiMax updated successfully in the database.
+2025-01-24 18:17:38,734 - database.crud_data - INFO - Daily data for 175674843537080320 inserted successfully in the database.
+2025-01-24 18:17:54,637 - utils.api - DEBUG - RM data retrieved for 661339: 26408, 585
+2025-01-24 18:17:54,644 - database.crud_user - INFO - User hyzed updated successfully in the database.
+2025-01-24 18:17:54,648 - database.crud_data - INFO - Daily data for 305055506035376138 inserted successfully in the database.
+2025-01-24 18:18:10,354 - utils.api - DEBUG - RM data retrieved for 692473: 54958, 275
+2025-01-24 18:18:10,360 - database.crud_user - INFO - User Icedgob updated successfully in the database.
+2025-01-24 18:18:10,363 - database.crud_data - INFO - Daily data for 414454063376105472 inserted successfully in the database.
+2025-01-24 18:18:26,082 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 18:18:26,088 - database.crud_user - INFO - User hello updated successfully in the database.
+2025-01-24 18:18:27,082 - utils.api - DEBUG - THM data retrieved for TopiMax: 351687, 17
+2025-01-24 18:18:27,088 - database.crud_data - INFO - Daily data for 427856199850000385 inserted successfully in the database.
+2025-01-24 18:18:27,481 - bot.core - DEBUG - Users score updated!
+2025-01-24 18:22:22,551 - database.crud_user - DEBUG - Active users retrieved from the database: 5
+2025-01-24 18:22:22,552 - database.crud_user - DEBUG - Deactivated users retrieved from the database: 0
+2025-01-24 18:22:23,206 - bot.core - DEBUG - Updating users score...
+2025-01-24 18:22:38,915 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 18:22:38,922 - database.crud_user - INFO - User TopiMax updated successfully in the database.
+2025-01-24 18:22:38,925 - database.crud_data - INFO - Daily data for 175674843537080320 inserted successfully in the database.
+2025-01-24 18:22:54,571 - utils.api - DEBUG - RM data retrieved for 661339: 26408, 585
+2025-01-24 18:22:54,577 - database.crud_user - INFO - User hyzed updated successfully in the database.
+2025-01-24 18:22:54,580 - database.crud_data - INFO - Daily data for 305055506035376138 inserted successfully in the database.
+2025-01-24 18:23:10,094 - utils.api - DEBUG - RM data retrieved for 692473: 54958, 275
+2025-01-24 18:23:10,099 - database.crud_user - INFO - User Icedgob updated successfully in the database.
+2025-01-24 18:23:10,102 - database.crud_data - INFO - Daily data for 414454063376105472 inserted successfully in the database.
+2025-01-24 18:23:26,827 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 18:23:26,832 - database.crud_user - INFO - User hello updated successfully in the database.
+2025-01-24 18:23:27,861 - utils.api - DEBUG - THM data retrieved for TopiMax: 351692, 17
+2025-01-24 18:23:27,872 - database.crud_data - INFO - Daily data for 427856199850000385 inserted successfully in the database.
+2025-01-24 18:23:28,235 - bot.core - DEBUG - Users score updated!
+2025-01-24 18:27:22,556 - database.crud_user - DEBUG - Active users retrieved from the database: 5
+2025-01-24 18:27:22,558 - database.crud_user - DEBUG - Deactivated users retrieved from the database: 0
+2025-01-24 18:27:23,239 - bot.core - DEBUG - Updating users score...
+2025-01-24 18:27:39,456 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 18:27:39,462 - database.crud_user - INFO - User TopiMax updated successfully in the database.
+2025-01-24 18:27:39,464 - database.crud_data - INFO - Daily data for 175674843537080320 inserted successfully in the database.
+2025-01-24 18:27:55,226 - utils.api - DEBUG - RM data retrieved for 661339: 26408, 585
+2025-01-24 18:27:55,232 - database.crud_user - INFO - User hyzed updated successfully in the database.
+2025-01-24 18:27:55,235 - database.crud_data - INFO - Daily data for 305055506035376138 inserted successfully in the database.
+2025-01-24 18:28:10,845 - utils.api - DEBUG - RM data retrieved for 692473: 54958, 275
+2025-01-24 18:28:10,851 - database.crud_user - INFO - User Icedgob updated successfully in the database.
+2025-01-24 18:28:10,854 - database.crud_data - INFO - Daily data for 414454063376105472 inserted successfully in the database.
+2025-01-24 18:28:26,531 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 18:28:26,537 - database.crud_user - INFO - User hello updated successfully in the database.
+2025-01-24 18:28:27,956 - utils.api - DEBUG - THM data retrieved for TopiMax: 351694, 17
+2025-01-24 18:28:27,988 - database.crud_data - INFO - Daily data for 427856199850000385 inserted successfully in the database.
+2025-01-24 18:28:28,368 - bot.core - DEBUG - Users score updated!
+2025-01-24 18:32:22,566 - database.crud_user - DEBUG - Active users retrieved from the database: 5
+2025-01-24 18:32:22,567 - database.crud_user - DEBUG - Deactivated users retrieved from the database: 0
+2025-01-24 18:32:22,965 - bot.core - DEBUG - Updating users score...
+2025-01-24 18:32:39,007 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 18:32:39,012 - database.crud_user - INFO - User TopiMax updated successfully in the database.
+2025-01-24 18:32:39,015 - database.crud_data - INFO - Daily data for 175674843537080320 inserted successfully in the database.
+2025-01-24 18:32:54,709 - utils.api - DEBUG - RM data retrieved for 661339: 26408, 585
+2025-01-24 18:32:54,716 - database.crud_user - INFO - User hyzed updated successfully in the database.
+2025-01-24 18:32:54,719 - database.crud_data - INFO - Daily data for 305055506035376138 inserted successfully in the database.
+2025-01-24 18:33:10,586 - utils.api - DEBUG - RM data retrieved for 692473: 54958, 275
+2025-01-24 18:33:10,592 - database.crud_user - INFO - User Icedgob updated successfully in the database.
+2025-01-24 18:33:10,595 - database.crud_data - INFO - Daily data for 414454063376105472 inserted successfully in the database.
+2025-01-24 18:33:26,200 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 18:33:26,206 - database.crud_user - INFO - User hello updated successfully in the database.
+2025-01-24 18:33:27,419 - utils.api - DEBUG - THM data retrieved for TopiMax: 351697, 17
+2025-01-24 18:33:27,434 - database.crud_data - INFO - Daily data for 427856199850000385 inserted successfully in the database.
+2025-01-24 18:33:27,888 - bot.core - DEBUG - Users score updated!
+2025-01-24 18:37:22,571 - database.crud_user - DEBUG - Active users retrieved from the database: 5
+2025-01-24 18:37:22,573 - database.crud_user - DEBUG - Deactivated users retrieved from the database: 0
+2025-01-24 18:37:23,511 - bot.core - DEBUG - Updating users score...
+2025-01-24 18:37:39,539 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 18:37:39,545 - database.crud_user - INFO - User TopiMax updated successfully in the database.
+2025-01-24 18:37:39,548 - database.crud_data - INFO - Daily data for 175674843537080320 inserted successfully in the database.
+2025-01-24 18:37:55,718 - utils.api - DEBUG - RM data retrieved for 661339: 26408, 585
+2025-01-24 18:37:55,724 - database.crud_user - INFO - User hyzed updated successfully in the database.
+2025-01-24 18:37:55,727 - database.crud_data - INFO - Daily data for 305055506035376138 inserted successfully in the database.
+2025-01-24 18:38:11,484 - utils.api - DEBUG - RM data retrieved for 692473: 54958, 275
+2025-01-24 18:38:11,491 - database.crud_user - INFO - User Icedgob updated successfully in the database.
+2025-01-24 18:38:11,494 - database.crud_data - INFO - Daily data for 414454063376105472 inserted successfully in the database.
+2025-01-24 18:38:27,235 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 18:38:27,242 - database.crud_user - INFO - User hello updated successfully in the database.
+2025-01-24 18:38:28,265 - utils.api - DEBUG - THM data retrieved for TopiMax: 351700, 17
+2025-01-24 18:38:28,279 - database.crud_data - INFO - Daily data for 427856199850000385 inserted successfully in the database.
+2025-01-24 18:38:28,639 - bot.core - DEBUG - Users score updated!
+2025-01-24 18:42:22,588 - database.crud_user - DEBUG - Active users retrieved from the database: 5
+2025-01-24 18:42:22,589 - database.crud_user - DEBUG - Deactivated users retrieved from the database: 0
+2025-01-24 18:42:23,035 - bot.core - DEBUG - Updating users score...
+2025-01-24 18:42:38,722 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 18:42:38,728 - database.crud_user - INFO - User TopiMax updated successfully in the database.
+2025-01-24 18:42:38,731 - database.crud_data - INFO - Daily data for 175674843537080320 inserted successfully in the database.
+2025-01-24 18:42:54,594 - utils.api - DEBUG - RM data retrieved for 661339: 26408, 585
+2025-01-24 18:42:54,600 - database.crud_user - INFO - User hyzed updated successfully in the database.
+2025-01-24 18:42:54,604 - database.crud_data - INFO - Daily data for 305055506035376138 inserted successfully in the database.
+2025-01-24 18:43:10,455 - utils.api - DEBUG - RM data retrieved for 692473: 54958, 275
+2025-01-24 18:43:10,460 - database.crud_user - INFO - User Icedgob updated successfully in the database.
+2025-01-24 18:43:10,464 - database.crud_data - INFO - Daily data for 414454063376105472 inserted successfully in the database.
+2025-01-24 18:43:26,353 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 18:43:26,359 - database.crud_user - INFO - User hello updated successfully in the database.
+2025-01-24 18:43:27,342 - utils.api - DEBUG - THM data retrieved for TopiMax: 351701, 17
+2025-01-24 18:43:27,356 - database.crud_data - INFO - Daily data for 427856199850000385 inserted successfully in the database.
+2025-01-24 18:43:27,751 - bot.core - DEBUG - Users score updated!
+2025-01-24 18:47:22,616 - database.crud_user - DEBUG - Active users retrieved from the database: 5
+2025-01-24 18:47:22,617 - database.crud_user - DEBUG - Deactivated users retrieved from the database: 0
+2025-01-24 18:47:23,079 - bot.core - DEBUG - Updating users score...
+2025-01-24 18:47:39,067 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 18:47:39,073 - database.crud_user - INFO - User TopiMax updated successfully in the database.
+2025-01-24 18:47:39,075 - database.crud_data - INFO - Daily data for 175674843537080320 inserted successfully in the database.
+2025-01-24 18:47:54,697 - utils.api - DEBUG - RM data retrieved for 661339: 26408, 585
+2025-01-24 18:47:54,702 - database.crud_user - INFO - User hyzed updated successfully in the database.
+2025-01-24 18:47:54,705 - database.crud_data - INFO - Daily data for 305055506035376138 inserted successfully in the database.
+2025-01-24 18:48:10,485 - utils.api - DEBUG - RM data retrieved for 692473: 54958, 275
+2025-01-24 18:48:10,491 - database.crud_user - INFO - User Icedgob updated successfully in the database.
+2025-01-24 18:48:10,494 - database.crud_data - INFO - Daily data for 414454063376105472 inserted successfully in the database.
+2025-01-24 18:48:26,092 - utils.api - DEBUG - RM data retrieved for 611740: 16611, 885
+2025-01-24 18:48:26,097 - database.crud_user - INFO - User hello updated successfully in the database.
+2025-01-24 18:48:27,989 - utils.api - DEBUG - THM data retrieved for TopiMax: 351704, 17
+2025-01-24 18:48:28,000 - database.crud_data - INFO - Daily data for 427856199850000385 inserted successfully in the database.
+2025-01-24 18:48:28,502 - bot.core - DEBUG - Users score updated!
