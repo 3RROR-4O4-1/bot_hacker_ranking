@@ -2,7 +2,7 @@
 
 Discord bot using `py-cord` and slash commands to follow the ranking of a guild
 on [Hack The Box](https://www.hackthebox.eu/), [Root Me](https://www.root-me.org/)
-and [Try Hack Me](https://tryhackme.com/) built by [@mathious6](https://github.com/Mathious6)
+and [Try Hack Me](https://tryhackme.com/) built by [@3RROR-4O4-1](https://github.com/3RROR-4O4-1)
 for [DaVinciCode](https://github.com/DaVinciCodeCTF).
 
 ### Preview
@@ -155,3 +155,4 @@ The bot is deployed with [Docker](https://www.docker.com/). To deploy the bot, y
 ├── README.md
 └── requirements.txt
 ```
+
